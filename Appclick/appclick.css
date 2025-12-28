@@ -42,16 +42,17 @@ body {
 }
 
 .login-box {
-    width: 260px;
+    width: 55%;
+    /* height: 55%; */
+    background-color: #28a745;
 }
 .logo-box {
     display: flex;
-    justify-content: start;
-    padding-left: 45px;
+    justify-content:center;
+    width: 100%;
 }
 
 .logo {
-    width: 150px;
     height: 80px;
     margin-bottom: 50px;
 }

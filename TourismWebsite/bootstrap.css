@@ -269,6 +269,28 @@
             display: flex;
             flex-direction: column;
         }
+           
+        .card-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .first-footerbox-secondrow {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .first-footerbox-thirdrow {
+        display: flex;
+        justify-content: space-between;
+
+    }
 
     }
 

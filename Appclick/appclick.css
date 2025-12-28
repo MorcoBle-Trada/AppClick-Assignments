@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.page {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.login-panel {
+    display: flex;
+    width: 33.5%;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.image-panel {
+    display: flex;
+    justify-content: center;
+    background-image: url(https://appclick.ng/portal/uploads/school_content/login_image/1690229717-162752723964bedbd546018!Stay-Ahead-in-the-Coding-World-with-These-Programming-Laptop-2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 66.5%;
+    height: 100vh;
+
+}
+
+.image-panel img {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.login-box {
+    width: 260px;
+}
+.logo-box {
+    display: flex;
+    justify-content: start;
+    padding-left: 45px;
+}
+
+.logo {
+    width: 150px;
+    height: 80px;
+    margin-bottom: 50px;
+}
+
+.login-panel .login-details {
+    width: 100%;
+    /* padding-bottom: 22px; */
+    /* max-width: 700px;
+    margin: 0px 200px; */
+}
+
+
+.login-panel .login-details h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #444;
+    line-height: 30px;
+}
+
+
+.input-box {
+    display: flex;
+    margin-bottom: 14px;
+    position: relative;
+}
+
+.login-panel input {
+    display: flex;
+    width: 100%;
+    border: 1px solid hwb(0 86% 12%);
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 16px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    color: #888;
+}
+
+input:focus {
+    outline: 1px solid #28a745;
+}
+
+.message-icon,
+.lock-icon {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+    color: gray;
+    font-size: 15px;
+}
+
+.login-panel .btn-box {
+    display: flex;
+    height: 50px;
+    border-radius: 4px;
+}
+
+.login-panel .btn-box .submit-btn {
+    width: 100%;
+    line-height: 50px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.login-panel .submit-btn:hover {
+    background: #424242;
+}
+
+.forgot {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #444;
+    padding-top: 5px;
+}
+
+.forget-text a {
+    color: #444;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.forget-text a:hover {
+    color: #444;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .page {
+        flex-direction: column;
+    }
+
+    .login-panel {
+        width: 100vw;
+        min-height: 450px;
+    }
+
+    .image-panel {
+        width: auto;
+    }
+
+    .login-box {
+        width: 661px;
+        padding-right: 50px;
+        min-height: 100px;
+    }
+    
+
+}

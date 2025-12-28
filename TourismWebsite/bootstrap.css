@@ -1,0 +1,276 @@
+    body {
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+    }
+
+
+    .logo {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+
+    .carousel-item .d-block {
+        border-radius: 10px;
+
+    }
+
+    .carousel-caption h5 {
+        font-weight: 500;
+        font-size: 30px;
+    }
+
+    .carousel-caption p {
+        font-weight: 500;
+        font-size: 25px;
+    }
+
+    .card-section {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+    }
+
+    .card {
+        /* width: ;: 700px;
+        background-color: black; */
+    }
+
+    /* Modal Of The Card */
+    .modal-title {
+        color: rgb(255, 145, 0);
+        padding-left: 25%;
+        font-weight: bolder;
+    }
+
+    /* Form Container */
+    .tour-form {
+        background-color: rgb(255, 145, 0);
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 450px;
+    }
+
+    .btn {
+        background-color: red;
+        border: none;
+        color: #f9f9f9;
+    }
+
+    .btn:hover {
+        background-color: rgb(255, 145, 0);
+    }
+
+    .btn:focus {
+        background-color: rgb(255, 145, 0);
+
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 5px;
+        color: #333;
+    }
+
+    /* Input and Select Styling */
+    input,
+    select {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        box-sizing: border-box;
+        /* Ensures padding doesn't affect width */
+        font-size: 14px;
+        transition: border-color 0.3s;
+    }
+
+    input:focus,
+    select:focus {
+        outline: none;
+        border-color: #00acc1;
+        box-shadow: 0 0 5px rgba(0, 172, 193, 0.3);
+    }
+
+    /* Phone Number Row Alignment */
+    .phone-input-group {
+        display: flex;
+        gap: 8px;
+    }
+
+    .phone-input-group select {
+        width: 120px;
+        background-color: #f9f9f9;
+    }
+
+
+
+    /* Footer Styling */
+    .footer {
+        display: flex;
+        background-color: #000000;
+        justify-content: center;
+        align-items: center;
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+        margin-top: 20px;
+        /* padding-top: 30px;    */
+    }
+
+    .footer-box {
+        /* display: flex;
+        flex-direction: column; */
+        margin: 30px 0px;
+        width: 75%;
+        /* background-color: #00acc1; */
+        /* max-width: 450px; */
+    }
+
+    .first-footerbox-column {
+        display: flex;
+        justify-content: space-between;
+        /* background-color: #ff0000; */
+    }
+
+    .first-footerbox-firstrow {
+        display: flex;
+        flex-direction: column;
+        /* background-color: #ffffff; */
+
+    }
+
+    .logo-box {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 10px;
+    }
+
+    .footer-logo {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    .logo-text {
+        color: #ffffff;
+    }
+
+    .tour {
+        color: #ff0000;
+    }
+
+    .tock {
+        color: orange;
+    }
+
+    .first-footerbox-firstrow .name {
+        color: #ffffff;
+        margin-bottom: 10px;
+        font-weight: bolder;
+        font-size: 18px;
+    }
+
+    .social-icons {
+        display: flex;
+        gap: 20px;
+    }
+
+    .ul-list {
+        list-style-type: none;
+        color: #ffffff;
+    }
+
+    .li-list {
+        padding-top: 15px;
+    }
+
+    ul li {
+        margin-bottom: 5px;
+    }
+
+    a {
+        list-style-type: none;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    a:hover {
+        cursor: pointer;
+        color: #ff0000;
+    }
+
+    .second-footerbox-colomn {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        border: 2px;
+        height: 2px;
+        background-color: white;
+        font-weight: bolder;
+        width: auto;
+        margin-top: 20px;
+    }
+
+    .third-footerbox-colomn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .copyright {
+        color: #ffffff;
+
+    }
+
+    @media (max-width:600px) {
+
+        .footer-box {
+            width: 80%;
+        }
+
+        .first-footerbox-column {
+            display: flex;
+            flex-direction: column;
+
+            /* background-color: #ff0000; */
+        }
+
+        .first-footerbox-firstrow {
+            padding-top: 30px;
+        }
+
+        br {
+            display: none;
+        }
+
+        .footer-ulbox {
+            display: flex;
+            padding-top: 30px;
+        }
+
+        .ul-list {
+            justify-content: space-evenly;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .third-footerbox-colomn {
+            display: flex;
+            flex-direction: column;
+        }
+
+    }
+
+    /* https://studying-in-uk.org/wp-content/uploads/2019/05/study-in-london-1068x641.jpg
+    https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D */

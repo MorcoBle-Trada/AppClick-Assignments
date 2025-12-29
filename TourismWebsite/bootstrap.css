@@ -29,7 +29,7 @@
     .card-section {
         display: flex;
         justify-content: space-evenly;
-        padding: 20px;
+        padding-top: 20px;
     }
 
     .card {
@@ -119,8 +119,6 @@
         background-color: #000000;
         justify-content: center;
         align-items: center;
-        border-top-right-radius: 8px;
-        border-top-left-radius: 8px;
         margin-top: 20px;
         /* padding-top: 30px;    */
     }
@@ -136,16 +134,19 @@
 
     .first-footerbox-column {
         display: flex;
-        justify-content: space-between;
-        /* background-color: #ff0000; */
+        width: 100%;
+        gap: 10px;
     }
 
     .first-footerbox-firstrow {
         display: flex;
         flex-direction: column;
+        width: 20%;
         /* background-color: #ffffff; */
 
     }
+
+
 
     .logo-box {
         display: flex;
@@ -182,6 +183,13 @@
     .social-icons {
         display: flex;
         gap: 20px;
+    }
+    
+    .first-footerbox-secondrow {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        padding-top: 10px;
     }
 
     .ul-list {
@@ -248,6 +256,7 @@
 
         .first-footerbox-firstrow {
             padding-top: 30px;
+            width: 100%;
         }
 
         br {
@@ -260,12 +269,12 @@
         }
 
         .ul-list {
-            justify-content: space-evenly;
             margin: 0px;
             padding: 0px;
         }
 
         .third-footerbox-colomn {
+            width: 100%;
             display: flex;
             flex-direction: column;
         }
@@ -278,20 +287,14 @@
     }
 
     .card {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .first-footerbox-secondrow {
-        display: flex;
+        display:grid;
+        grid-template-columns: auto auto;
         justify-content: space-between;
     }
-
-    .first-footerbox-thirdrow {
-        display: flex;
-        justify-content: space-between;
-
-    }
-
     }
 
     /* https://studying-in-uk.org/wp-content/uploads/2019/05/study-in-london-1068x641.jpg

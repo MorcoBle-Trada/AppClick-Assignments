@@ -18,7 +18,6 @@ body {
 .login-panel {
     display: flex;
     width: 33.5%;
-    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -41,29 +40,22 @@ body {
     object-fit: cover;
 }
 
-.login-box {
-    width: 55%;
-    /* height: 55%; */
-    background-color: #28a745;
-}
-.logo-box {
-    display: flex;
-    justify-content:center;
+.login-panel .login-box {
     width: 100%;
+    padding-inline: 30px;
+    padding-bottom: 22px;
+    max-width: 400px;
+}
+
+.logo-box {
+    padding-left: 44px;
 }
 
 .logo {
+    width: 150px;
     height: 80px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
-
-.login-panel .login-details {
-    width: 100%;
-    /* padding-bottom: 22px; */
-    /* max-width: 700px;
-    margin: 0px 200px; */
-}
-
 
 .login-panel .login-details h3 {
     font-size: 18px;
@@ -72,7 +64,6 @@ body {
     color: #444;
     line-height: 30px;
 }
-
 
 .input-box {
     display: flex;
@@ -158,12 +149,4 @@ input:focus {
     .image-panel {
         width: auto;
     }
-
-    .login-box {
-        width: 661px;
-        padding-right: 50px;
-        min-height: 100px;
-    }
-    
-
 }

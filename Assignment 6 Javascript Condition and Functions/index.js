@@ -2,6 +2,7 @@
 
   1. JavaScript conditional statements are used to make decisions in a program based on given conditions. 
     They control the flow of execution by running different code blocks depending on whether a condition is true or false.
+    
     Types of Conditional Statements
     if statement
     else if statement
@@ -19,8 +20,9 @@ if (age >= 18) {
 }
 
 
-/* 2. The if statement checks a condition written inside parenthese (). If the condition    evaluates to true, the code inside {} is executed; otherwise, it is skipped.
-    The else if statement is used to test multiple conditions in sequence. It executes the first block whose condition evaluates to true.Allows checking more than two conditions evaluated from top to bottom until a true condition is found, while else statement runs when none of the conditions are true                */
+/* 2. The if statement checks a condition written inside parenthese (). If the condition evaluates to true, the code inside {} is executed; otherwise, it is skipped.
+    The else if statement is used to test multiple conditions in sequence. It executes the first block whose condition evaluates to true.Allows checking more than two 
+    conditions evaluated from top to bottom until a true condition is found, while else statement runs when none of the conditions are true                */
 
 //  3. Write a JavaScript program that checks if a number is positive, negative, or zero.
 
@@ -36,10 +38,9 @@ if (num > 0) {
 }
 
 /* 4.  Switch Statement 
-The switch statement evaluates an expression and executes the matching case block based on its value. It provides a clean and readable way to handle multiple conditions for a single variable.
-It is preferred over if-else when:
-One variable needs to be compared against multiple fixed values.
-It also improves readability compared to long if-else chains.*/
+The switch statement evaluates an expression and executes the matching case block based on its value. It provides a clean and readable way to handle multiple conditions 
+for a single variable.It is preferred over if-else when; one variable needs to be compared against multiple fixed values and it also improves readability compared to 
+long if-else chains.*/
 
 
 // 5. The following Code Output
@@ -55,7 +56,8 @@ if (10 > 5) {
 /*           Section B: Javascript Functions 
 
 6.Function in Javascript 
-Functions in JavaScript are reusable blocks of code designed to perform specific tasks. They allow you to organize and reuse code. It can take inputs, perform actions, and return outputs.
+Functions in JavaScript are reusable blocks of code designed to perform specific tasks. They allow you to organize and reuse code. It can take inputs, perform actions, 
+and return outputs.
   
 
 7. A simple function that adds two numbers and returns the result.*/

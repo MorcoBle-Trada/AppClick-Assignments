@@ -89,7 +89,7 @@ console.log(addNumbers(5, 6));
 
 // 8 To Tenary Operators;
 
-const checkEvenOdd = num => num % 2 === 0 ? "Even Number" : "Odd Number";
+const checkEvenOdd = (num) => (num % 2 === 0 ? "Even Number" : "Odd Number");
 console.log(checkEvenOdd(9));
 
 

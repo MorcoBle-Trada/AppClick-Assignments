@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REGEX Assignment</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+  <main>
+  <!-- FORM 1: ONLY .com -->
+  <!-- <div class="form-box">
+    <h2>.com only</h2>
+    <form>
+      <input id="email" type="email" placeholder="Type your email" />
+      <button onclick="checkEmail()" type="submit">Validate</button>
+    </form>
+  </div> -->
+
+  <!-- FORM 2: .com & .com.ng -->
+  <!-- <div class="form-box">
+    <h2>.com & .com.ng</h2>
+    <form>
+      <input id="emailComNg" type="email" placeholder="Type your email">
+      <button  type="submit">validate</button>
+  </main> -->
+
+
+
+      <script>
+
+        // The Short Form ONLY .
+        
+             const emailPaternShort = /^[\w.%+-]+@[\w.-]+\.[A-Za-z]{2,}$/;
+       
+        console.log(emailPaternShort.test("easymorco@gmail.com"));
+
+
+        // Short Form that Also Accepts .com &.com.ng
+
+        
+        const emailPaternShortNg = /^[\w.%+-]+@[\w.-]+(\.[A-Za-z]{2,})+$/;
+
+        console.log(emailPaternShortNg.test("easymorco@gmail.com.ng"));
+
+        // Though emailPaternShort constant variable  actually returns true for easymorco@gmail.com.ng because the [\w.-]+ part is greedy, it swallows the gmail.com part, and the \.[a-zA-Z]{2,}$ part matches the final .ng.
+
+      </script>
+    
+</body>
+
+</html>
